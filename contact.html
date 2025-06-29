@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <title>Contact</title>
+        <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+ <header>
+        <div class="logo-placeholder">
+           
+        </div>
+
+        <h1>LAZAR WINERY</h1>
+
+        <button class="menu-toggle">MENU</button>
+    </header>
+
+
+    <div class="fullscreen-menu">
+        <div class="menu-header">
+            <div class="menu-title">LAZAR WINERY</div>
+            <button class="close-menu">×</button>
+        </div>
+        
+        <div class="menu-sections">
+            <div class="menu-section">
+                <h2><a href="our_wines.html">Our wines</a></h2>
+                <ul>
+                    <li>Wines</li>
+                    <li>The wineyards</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2><a href="restaurant.html">Restaurant</a></h2>
+                <ul>
+                    <li>Menu</li>
+                    <li>Reservations</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2><a href="about_us.html">About us</a></h2>
+                <ul>
+                    <li>Where are we</li>
+                    <li>Our story</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2><a href="contact.html">Contact and reservation</a></h2>
+                <ul>
+                    <li>Contact</li>
+                    <li>Reservations</li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+         <section class="contact-reservations-section">
+        <div class="contact-reservations-container">
+            <div class="contact-reservations-info">
+                <h2 class="contact-reservations-title">Contact & Reservations</h2>
+
+                
+                <div class="contact-info-block">
+                    <h3 class="contact-info-title">Visit Us</h3>
+                    <p class="contact-info-content">
+                        Lazar Winery<br>
+                         Naseleno mesto bez ulicen sistem MK, Stobi, Паликура 1422<br>
+                        North Macedonia
+                    </p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3 class="contact-info-title">Contact Information</h3>
+                    <p class="contact-info-content">
+                        <strong>Phone:</strong> <a href="tel:+38970123456">071 281 566</a><br>
+                        <strong>Email:</strong> <a href="mailto:reservations@lazarwinery.com">reservations@lazarwinery.com</a>
+                    </p>
+                </div>
+                
+                <div class="contact-info-block">
+                    <h3 class="contact-info-title">Tasting Room Hours</h3>
+                    <table class="hours-table">
+                        <tr>
+                            <td>Monday - Thursday</td>
+                            <td>10:00 AM - 6:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Friday - Saturday</td>
+                            <td>10:00 AM - 8:00 PM</td>
+                        </tr>
+                        <tr>
+                            <td>Sunday</td>
+                            <td>11:00 AM - 5:00 PM</td>
+                        </tr>
+                    </table>
+                </div>
+                
+                
+            </div>
+            
+            <div class="contact-reservations-form">
+                <h3 class="contact-reservations-title">Make a Reservation</h3>
+                <form class="reservation-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="date">Preferred Date</label>
+                        <input type="date" id="date" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="time">Preferred Time</label>
+                        <select id="time" required>
+                            <option value="">Select time</option>
+                            <option value="11:00">11:00 AM</option>
+                            <option value="14:00">2:00 PM</option>
+                            <option value="16:00">4:00 PM</option>
+                            <option value="other">Other (specify in notes)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="guests">Number of Guests</label>
+                        <select id="guests" required>
+                            <option value="1">1 person</option>
+                            <option value="2">2 people</option>
+                            <option value="3-5">3-5 people</option>
+                            <option value="6-10">6-10 people</option>
+                            <option value="10+">10+ people</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">Special Requests</label>
+                        <textarea id="notes"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Submit Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="w-footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3 class="footer-title">Contact Us</h3>
+            <ul class="footer-list">
+                <li><i class="fas fa-map-marker-alt"></i> Naseleno mesto bez ulicen sistem MK, Stobi, Паликура 1422</li>
+                <li><i class="fas fa-phone"></i> 071 281 566</li>
+                <li><i class="fas fa-envelope"></i> lazarwinery@yahoo.com</li>
+                <li><i class="fas fa-clock"></i> Mon-Sun: 08:00 AM - 23:00 PM</li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3 class="footer-title">Make a Reservation</h3>
+            <p class="footer-text">Book your table in advance to ensure the best dining experience.</p>
+            <a href="#" class="reservation-button">RESERVE NOW</a>
+        </div>
+    
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; Made by Hristina Vanchova 2025</p>
+    </div>
+</footer>
+ 
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const closeMenu = document.querySelector('.close-menu');
+        const fullscreenMenu = document.querySelector('.fullscreen-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            fullscreenMenu.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeMenu.addEventListener('click', () => {
+            fullscreenMenu.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+    </script>
+    </body>
+</html>

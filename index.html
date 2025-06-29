@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Lazar Winery</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo-placeholder">
+           
+        </div>
+
+        <h1>LAZAR WINERY</h1>
+
+        <button class="menu-toggle">MENU</button>
+    </header>
+
+
+    <div class="fullscreen-menu">
+        <div class="menu-header">
+            <div class="menu-title">LAZAR WINERY</div>
+            <button class="close-menu">×</button>
+        </div>
+        
+        <div class="menu-sections">
+            <div class="menu-section">
+                <h2><a href="our_wines.html">Our wines</a></h2>
+                <ul>
+                    <li>Wines</li>
+                    <li>The wineyards</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2><a href="restaurant.html">Restaurant</a></h2>
+                <ul>
+                    <li>Menu</li>
+                    <li>Reservations</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2><a href="about_us.html">About us</a></h2>
+                <ul>
+                    <li>Where are we</li>
+                    <li>Our story</li>
+                </ul>
+            </div>
+            
+            <div class="menu-section">
+                <h2><a href="contact.html">Contact and reservation</a></h2>
+                <ul>
+                    <li>Contact</li>
+                    <li>Reservations</li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+
+    <section class="wine-section">
+        <div class="container">
+            <div class="image-column">
+                <img src="/images/vinaa.PNG" alt="" >
+            </div>
+            <div class="text-column">
+                <p class="subtitle">Only the finest grapes deserve to become exceptional wine.</p>
+                
+                <div class="divider"></div>
+                
+                <p class="main-text">Lazar winery produces various styles of wines, from sparkling to still and dessert wines from different grape varieties from indigenous Temjanika, Grasevina, Belan, Kratosija, Vranec to international famous grapes as Chardonnay, Sauvignon Blanc, Pinot Gris, Gewürztraminer, Pinot Noir, Cabernet Sauvignon, Merlo and Shiraz.</p>
+                
+                <p class="secondary-text">Lazar winery has operation with more than 30 hectares out which 6 hectares are owned by the winery and the rest are owned by 15 partners-farmers traditionally cooperating with the winery as the corporate policy is to create long-term relations for sustainable production on the best vineyard sites in Tikves Wine region.</p>
+                
+                <a href="our_wines.html" class="wine-button">Discover our wines</a>
+            </div>
+        </div>
+    </section>
+
+
+<section class="restaurant-about">
+    <div class="restaurant-container">
+        <div class="restaurant-content-wrapper">
+            <div class="restaurant-text-content">
+                <h2 class="restaurant-tagline">Created with love</h2>
+                
+                <p class="restaurant-description">
+                    Our restaurant creates various culinary styles, from traditional local cuisine to international dishes, 
+                    using ingredients sourced from local farmers and imported specialties. 
+                </p>
+                
+                <a href="restaurant.html" class="restaurant-cta">DISCOVER OUR MENU</a>
+                <br>
+                <a href="contact.html" class="restaurant-cta">MAKE A RESERVATION</a>
+            </div>
+            
+            <div class="restaurant-image-container">
+                <img src="/images/restaurant.PNG" alt="" class="restaurant-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="our-story">
+    <div class="story-container">
+        <div class="story-image-wrapper">
+            <img src="/images/about_us.PNG" alt="" class="story-image">
+        </div>
+        
+        <div class="story-content">
+            <p class="story-quote">Lazar Winery from Negotino was established in 2001 as a small family owned winery
+by Lazar Ristov.</p>
+            <a href="about_us.html" class="story-button">OUR STORY</a>
+        </div>
+    </div>
+</section>
+
+
+<footer class="w-footer">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3 class="footer-title">Contact Us</h3>
+            <ul class="footer-list">
+                <li><i class="fas fa-map-marker-alt"></i> Naseleno mesto bez ulicen sistem MK, Stobi, Паликура 1422</li>
+                <li><i class="fas fa-phone"></i> 071 281 566</li>
+                <li><i class="fas fa-envelope"></i> lazarwinery@yahoo.com</li>
+                <li><i class="fas fa-clock"></i> Mon-Sun: 08:00 AM - 23:00 PM</li>
+            </ul>
+        </div>
+        
+        <div class="footer-column">
+            <h3 class="footer-title">Make a Reservation</h3>
+            <p class="footer-text">Book your table in advance to ensure the best dining experience.</p>
+            <a href="#" class="reservation-button">RESERVE NOW</a>
+        </div>
+    
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; Made by Hristina Vanchova 2025</p>
+    </div>
+</footer>
+
+
+    
+    
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const closeMenu = document.querySelector('.close-menu');
+        const fullscreenMenu = document.querySelector('.fullscreen-menu');
+        
+        menuToggle.addEventListener('click', () => {
+            fullscreenMenu.style.display = 'block';
+            document.body.style.overflow = 'hidden';
+        });
+        
+        closeMenu.addEventListener('click', () => {
+            fullscreenMenu.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+    </script>
+</body>
+</html>
