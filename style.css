@@ -195,7 +195,7 @@ header {
 
 .belan
 {
-    background-image: url("/images/BELAN.jpg");
+    background-image: url("images/BELAN.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
@@ -203,28 +203,28 @@ header {
 }
 .grand_cuve
 {
-    background-image: url("/images/lazar-grand-cuve.png");
+    background-image: url("images/lazar-grand-cuve.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
 }
 .temjanika
 {
-    background-image: url("/images/Temjanika.png");
+    background-image: url("images/Temjanika.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
 }
 .grashevina
 {
-    background-image: url("/images/Grasevina.png");
+    background-image: url("images/Grasevina.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
 }
 .allure_pinot_noir
 {
-    background-image: url("/images/Pinot-Noir-barrique.png");
+    background-image: url("images/Pinot-Noir-barrique.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
@@ -237,38 +237,38 @@ header {
 }
 .bukefal
 {
-    background-image: url("/images/BUKEFAL.jpg");
+    background-image: url("images/BUKEFAL.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 .cuvee
 {
-    background-image: url("/images/cuve.png");
+    background-image: url("images/cuve.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .pearl_frizzante
 {
-    background-image: url("/images/brut-600x600.jpg");
+    background-image: url("images/brut-600x600.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .pearl_frizzante_rose
 {
-    background-image: url("/images/brut-768x768.jpg");
+    background-image: url("images/brut-768x768.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .blanc_de_blanc
 {
-    background-image: url("/images/Pearl-Blank-de-blank-obr-600x600.jpg");
+    background-image: url("images/Pearl-Blank-de-blank-obr-600x600.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 .blanc_de_blanc_rose
 {
-    background-image: url("/images/Blank-De-rose-new-600x600.jpg");
+    background-image: url("images/Blank-De-rose-new-600x600.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
