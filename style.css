@@ -231,7 +231,7 @@ header {
 }
 .kratoshija
 {
-    background-image: url("/images/Kratoshija.png");
+    background-image: url("images/Kratoshija.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
